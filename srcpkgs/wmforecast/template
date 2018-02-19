@@ -1,0 +1,13 @@
+# Template file for 'wmforecast'
+pkgname=wmforecast
+version=0.11
+revision=1
+build_style=gnu-configure
+hostmakedepends="pkg-config"
+makedepends="WindowMaker-devel libX11-devel libcurl-devel libxml2-devel"
+short_desc="Dockapp weather via yahoo.com and your zip code"
+maintainer="Michael Heras <userxbw@gmail.com>"
+license="GPL-3"
+homepage="http://wmforecast.friedcheese.org/"
+distfiles="https://github.com/d-torrance/wmforecast/releases/download/v0.11/wmforecast-0.11.tar.gz"
+checksum=ba8e0c41a2b230de13d26c20e626c1f9b2a9ac1e2d499db366b0d11369244d9e
