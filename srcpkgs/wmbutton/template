@@ -1,0 +1,13 @@
+# Template file for 'wmbutton'
+pkgname=wmbutton
+version=0.7.1
+revision=1
+build_style=gnu-configure
+hostmakedepends="pkg-config"
+makedepends="libX11-devel libXpm-devel libXext-devel"
+short_desc="Dockapp 9 button application launcher"
+maintainer="Michael Heras <userxbw@gmail.com>"
+license="GPL-3"
+homepage="http://www.dockapps.net/wmbutton"
+distfiles="http://www.dockapps.net/download/wmbutton-0.7.1.tar.gz"
+checksum=9a80da3308a36993a48d5e25da800e8a6e5287bf4ae2ad6fc59b03dc2c5db519
